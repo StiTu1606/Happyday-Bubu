@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #3b2430;
+}
+
+header {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 15px 25px;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    background-color: #ff8fab;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+section {
+    padding: 80px 10%;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carta {
+    max-width: 800px;
+
+    margin: auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.carta p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.galeria {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 50px;
+    background-color: #ffd6e0;
+}
+
+footer h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: auto;
+}
+
+#cancion {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+#cancion p {
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+#recuerdos h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-recuerdos {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 40px;
+    color: #6b4a57;
+}
+
+.recuerdo {
+    background-color: white;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.recuerdo img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.recuerdo p {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5a3d49;
+}
